@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Updating apt
         run: 
-         apt update
+         sudo apt update
       - name: installing 
         run: 
          sudo apt install docker-compose
