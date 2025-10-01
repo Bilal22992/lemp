@@ -12,9 +12,6 @@ jobs:
         run: 
          sudo apt update
       
-      - name: Installing docker
-        run: 
-         sudo apt install docker.io
       - name: installing 
         run: 
          sudo apt install docker-compose -y
